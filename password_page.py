@@ -19,7 +19,7 @@ def send_notify(): #sends a notification once password page i offline
 	embed=DiscordEmbed(title='Shopify', description='Password page removed', color=0xadff2f)
 	webhook.add_embed(embed)
 	embed.add_embed_field(name='Site Link: ', value=site)
-	embed.set_footer(text='pxtr.ck')
+	embed.set_footer(text='Hi')
 	embed.set_timestamp()
 	webhook.execute()
 
