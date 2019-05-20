@@ -1,6 +1,6 @@
 '''short script to check if a shopify password page is on or offline, great to combine with your shopify monitors'''
 
-#written in 5minutes by pxtr.ck#3068, improved by you
+#written in 5minutes by me, improved by you
 
 import requests
 import datetime
